@@ -1,0 +1,150 @@
+.parent{
+    display: flex;
+    background-color: #FFFFFF;
+}
+.backgroundImage{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 55.67vw;
+    /* margin-left: 6.73vw; */
+    /* margin-top: 11.77vh; */
+    background-image: url(../../assets/images/airplan4.jpg);
+}
+.placeholder {
+    margin-left: 1.11vw;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.18rem;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 0.6;
+    /* color: #213F;     */
+    color: rgb(11, 26, 67);
+    border: none;
+}
+.flexbox{
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    height: 4vh;
+    width: 12.07vh;
+    margin-left: 6.73vw;
+    margin-top: 11.77vh;
+    gap: 0.6vw;
+  }
+.formparent{
+    /* padding: 6em 5em; */
+    /* background: #FFFFFF; */
+    height: 100vh;
+    width: 51vw;
+    /* margin-left: 51.11vw; */
+    box-shadow: 0px 15px 90px 0px rgba(0, 0, 0, 0.03);
+    margin-top: -0.55vh;
+}
+.welcome{
+    height: 6.11vh;
+    width: 12.70vw;
+    margin-left: 6.94vw;
+    margin-top: 23.89vh;
+    font-family: sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: -0.04em;
+    text-align: left;
+    color: rgba(33, 63, 125, 1);
+}
+.submessage{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 29px;
+    white-space: nowrap;
+    color: rgba(84, 95, 125, 1);
+    opacity: 0.6;
+    margin-top: 1.11vh;
+    margin-left: 6.94vw;
+    height: 3.11vh;
+    width: 13.47vw;
+}
+.formHorizontal{
+    margin-top: 2em;
+}
+.openskylogo {
+    width: 15em;
+    height: 10em;
+    margin: auto;
+    margin-left: 2em;
+    margin-top: -15em
+}
+.input{
+    outline: none;
+    margin-top: 2em;
+    border: 1px solid #B5B5B5;
+    border-radius: 6px;
+    height: 5vh;
+    width: 31.04vw;
+    padding-left: 1em;
+    display: flex;
+    margin-left: 6.94vw;
+    align-items: center;
+}
+.forgotpassword{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.8em;
+    line-height: 1rem;
+    letter-spacing: 0.08rem;
+    color: rgba(57, 205, 204, 1);
+    height: 1.88vh;
+    width: 10.2vw;
+    margin-left: 6.94vw;
+    margin-top: 2.67vh;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.button{
+    background: rgba(57, 205, 204, 1);
+    border-radius: 6px;
+    color: white;
+    height: 5.33vh;
+    width: 31.04vw;
+    margin-left: 6.94vw;
+    border: none;
+    margin-top: 1em;
+    line-height: 1rem;
+    letter-spacing: 0.08rem;
+    cursor: pointer;
+}
+.error{
+    color: tomato;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-left: 6.94vw;    
+}
+
+#input:-webkit-autofill{
+    -webkit-text-fill-color: yellow !important;
+}
+
+
+/* \\ MEDIA QUERIES \\ */
+@media screen and (max-width: 750px) {
+    .parent{
+        display: grid;
+        background-repeat: no-repeat;
+    }
+    .backgroundImage{
+        display: none;
+    }
+    .formparent{
+        padding: 6em 4em;
+        width: 100vw;
+        background: none;
+
+    }
+  }

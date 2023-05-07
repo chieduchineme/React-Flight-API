@@ -1,0 +1,49 @@
+.Dashboard {
+  background-color: var(--background);
+  color: var(--text-primary);
+}
+.apiError {
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+    text-align: center;
+    margin-top: 50px;
+    /* height: 90% */
+
+    margin-bottom: 20em;
+  }
+
+.inputs > div {
+    margin-bottom: 1em;
+  }
+
+label {
+    margin-right: 1em;
+  }
+
+.inputs > p {
+    color: black;
+    width: 20em
+  }
+
+  .inputs  p {
+    width: 20em
+  }
+  
+div > h4 {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+div input {
+  margin-bottom: 1em;
+}
+.rowOrColumn {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 850px) {
+  .rowOrColumn{
+    flex-direction: column; 
+  }
+}
