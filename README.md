@@ -2,7 +2,7 @@
 # Email: Any non-null email; Password: Any non-null password
 
 
-This project was bootstrapped with [Create React App](https://localhost:3000).
+This project was bootstrapped with [Create React App](http://localhost:3000).
 
 ## Available Scripts
 
